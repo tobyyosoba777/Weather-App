@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
 
 * {
     margin: 0;
@@ -97,6 +102,31 @@ h1.temp {
     left: 20px;
 }
 
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Abel', sans-serif;
+    background-color: rgba(0, 0, 0, 0.459);
+    color: #fff;
+    border-radius: 10px;
+    padding: 12px;
+    margin-top: 50px;
+}
+
+.footer h3 {
+    /* letter-spacing: 0.1em; */
+    font-size: 15px;
+    border-radius: 50%;
+}
+
+.footer img {
+    border-radius: 50%;
+}
+
+
+
 @media screen and (max-width: 992px)  {
     body {
         font-size: 100%;
@@ -108,22 +138,3 @@ h1.temp {
     }
 }
 
-.footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.459);
-    color: #fff;
-    border-radius: 10px;
-    padding: 12px;
-}
-
-.footer h3 {
-    font-size: 14px;
-    border-radius: 50%;
-}
-
-.footer img {
-    border-radius: 50%;
-}
