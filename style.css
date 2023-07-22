@@ -28,7 +28,7 @@ body {
 .card {
     background: rgba(0, 0, 0, 0.712);
     color: white;
-    padding: 2em;
+    padding: 2.5em 1em;
     border-radius: 30px;
     width: 100%;
     max-width: 420px;
@@ -129,12 +129,15 @@ h1.temp {
 
 @media screen and (max-width: 992px)  {
     body {
-        font-size: 100%;
+        font-size: 95%;
     }
     input.search-bar {
         font-size: 95%;
         width: calc(100% - 100px);
     
+    }
+    .card {
+        padding: 2.5em 1em;
     }
 }
 
